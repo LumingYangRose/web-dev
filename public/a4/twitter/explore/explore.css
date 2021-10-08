@@ -1,3 +1,24 @@
-/*.container-override{*/
-/*    padding-left:1000px;*/
-/*}*/
+.container.custom-container{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.icon {
+    font-size: 1.5em;
+    float:left;
+}
+
+
+.format {
+    float:left;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.round {
+    border-radius: 20px;
+    height: 40px;
+}
+
+
+
