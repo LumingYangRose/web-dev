@@ -121,3 +121,7 @@ a.active.nav-link{
     width=100%;
     background-color:#2296e6;
 }
+
+.dark{
+    border: solid #171a1e;
+}
