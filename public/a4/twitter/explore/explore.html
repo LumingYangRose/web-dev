@@ -10,7 +10,7 @@
 <body>
 <div class="custom-container container pt-1 start-100">
     <div class="row">
-        <div class="col-sm-1 col-md-2 col-lg-2 col-xl-3 col-xxl-3">
+        <div class=" col-sm-2 col-md-2 col-lg-2 col-xl-3 col-xxl-2">
             <ul class="list-group">
                 <li class="list-group-item"><i class="fab fa-twitter icon" ></i></li>
                 <li class="list-group-item">
@@ -45,21 +45,21 @@
                     <i class="fas fa-ellipsis-h icon"></i>
                     <div class="d-none d-xxl-block d-xl-block format">More</div>
                 </li>
-            </ul>
-            <button type="button" class="btn btn-primary btn-block rounded-pill ps-m-3 pe-m-3 ps-lg-5 pe-lg-5 "><span class="ps-xl-5 pe-xl-5">Tweet</span></button>
+                <button type="button" style="width:100%" class="btn btn-primary btn-block rounded-pill ">Tweet</button>
 
+            </ul>
         </div>
 
-        <div class="col-xl-8 col-lg-8">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <div class="row">
-                <div class="col-8 border border-light-grey round p-2 ">
+                <div class="col-10 border border-light-grey round p-2 ">
                     <i class="fas fa-search icon"></i>
                     <span class="ps-3">Search</span>
                 </div>
                 <div class="col-1"><i class="fas fa-cog p-3 font-size:1em"></i></div>
             </div>
 
-            <div class="row col-12">
+            <div class="row">
                 <ul class="nav nav-tabs ">
                     <li class="nav-item">
                         <a class="nav-link active" href="for-you.html">For You</a>
@@ -80,21 +80,119 @@
 
             </div>
 
-            <div class="row">
-                <div class="card col-9">
-                    <img src="starship.jpg" class="card-img-top" alt="...">
+            <div class="row pt-2">
+                <div class="card">
+                    <div class="image">
+                        <img src="starship.jpg" class="card-img-top" alt="...">
+                        <div class="overlay-text">SpaceX's Starship</div>
+                    </div>
 
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and
-                            make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="border row pt-2 pb-2">
+                        <div class="col-10">
+                            <div class="grey-text"> Web Development </div>
+                            <div class="black-bg-text">ReactJS
+                                <i class="fas fa-check-circle"></i>
+                                <span class="grey-text"> - 2h</span>
+                            </div>
+                            <div class="black-sm-text">
+                                React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-responsive icon-img" src="react.png"/>
+                        </div>
+                    </div>
+
+                    <div class="border row pt-2 pb-2">
+                        <div class="col-10">
+                            <div class="black-bg-text">JavaScript
+                                <i class="fas fa-check-circle"></i>
+                                <span class="grey-text"> - 2h</span>
+                            </div>
+                            <div class="black-sm-text">
+                                JavaScript is programming language that can run on browsers as well as desktops
+                            </div>
+                            <div class="grey-text">
+                                123K Tweets
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-responsive icon-img" src="js.png"/>
+                        </div>
+                    </div>
+
+                    <div class="border row pt-2 pb-2">
+                        <div class="col-10">
+                            <div class="grey-text">
+                                Web Development
+                            </div>
+                            <div class="black-bg-text">jQuery
+                            </div>
+                            <div class="grey-text">
+                                123K Tweets
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-responsive icon-img" src="jquery.png"/>
+                        </div>
+                    </div>
+
+                    <div class="border row pt-2 pb-2">
+                        <div class="col-10">
+                            <div class="grey-text">
+                                Web Development
+                            </div>
+                            <div class="black-bg-text">NodeJS
+                                <i class="fas fa-check-circle"></i>
+                                <span class="grey-text"> - 2h</span>
+                            </div>
+                            <div class="grey-text">
+                                123K Tweets
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-responsive icon-img" src="nodejs.png"/>
+                        </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
+<!--        d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block-->
+        <div class="d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block col-lg-4 col-xl-4 col-xxl-4">
+            <ul class="list-group">
+                <li class="list-group-item black-bg-text">Who to follow</li>
+                <li class="list-group-item">
+                    <img src="java.jpeg" class="rounded-circle avatar"/>
+                    <button type="button" class="btn btn-primary btn-block rounded-pill fr">Follow</button>
+                    <div class="black-bg-text ps-5">Java<i class="fas fa-check-circle ps-1"></i><br><div class="black-sm-text">@Java</div></div>
+                </li>
+
+                <li class="list-group-item">
+                    <img src="relativespace.jpeg" class="rounded-circle avatar"/>
+                    <button type="button" class="btn btn-primary btn-block rounded-pill fr">Follow</button>
+                    <div class="black-bg-text ps-5">Relativity Space<i class="fas fa-check-circle ps-1"></i><br><div class="black-sm-text">@relativityspace</div></div>
+                </li>
+
+                <li class="list-group-item">
+                    <img src="virgin.png" class="rounded-circle avatar"/>
+                    <button type="button" class="btn btn-primary btn-block rounded-pill fr">Follow</button>
+                    <div class="black-bg-text ps-5">Virgin Galactic<i class="fas fa-check-circle ps-1"></i><br><div class="black-sm-text">@virgingalactic</div></div>
+                </li>
+
+                <li class="list-group-item">
+                    <img src="nasa.png" class="rounded-circle avatar"/>
+                    <button type="button" class="btn btn-primary btn-block rounded-pill fr">Follow</button>
+                    <div class="black-bg-text ps-5">NASA<i class="fas fa-check-circle ps-1"></i><br><div class="black-sm-text">@NASA</div></div>
+                </li>
+
+                <li class="list-group-item">
+                    <img src="tesla.jpeg" class="rounded-circle avatar"/>
+                    <button type="button" class="btn btn-primary btn-block rounded-pill fr">Follow</button>
+                    <div class="black-bg-text ps-5">Tesla<i class="fas fa-check-circle ps-1"></i><br><div class="black-sm-text">@Tesla</div></div>
+                </li>
+            </ul>
+        </div>
+
     </div>
 </div>
 </body>

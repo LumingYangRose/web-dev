@@ -4,7 +4,7 @@
 }
 
 .icon {
-    font-size: 1.5em;
+    font-size: 1em;
     float:left;
 }
 
@@ -12,7 +12,8 @@
 .format {
     float:left;
     font-weight: bold;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
+    padding-left: 10px;
 }
 
 .round {
@@ -20,5 +21,47 @@
     height: 40px;
 }
 
+.image {position: relative;}
+.overlay-text {
+    position: absolute;
+    bottom: 10px;
+    left:19px;
+    font-size:30px;
+    font-weight: bold;
+    color: white;
+}
 
+.grey-text {
+    color: #999fa3;
+    font-size: 0.8em;
+}
 
+.black-bg-text {
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.black-sm-text {
+    color: black;
+    font-size: 0.8em;
+}
+
+.icon-img{
+    float:right;
+    width: 80px;
+    height:80px;
+    padding-top: 10px;
+    padding-left: 3px;
+    border-radius: 15px;
+}
+
+.avatar {
+    width:40px;
+    height: 40px;
+    float: left;
+}
+
+.fr {
+    float: right;
+}
