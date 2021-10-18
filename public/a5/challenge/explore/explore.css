@@ -1,0 +1,127 @@
+.container.custom-container{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.icon {
+    font-size: 1em;
+    float:left;
+    color: lightgray;
+}
+
+
+.format {
+    float:left;
+    font-weight: bold;
+    /*margin-left: 20px;*/
+    padding-left: 10px;
+}
+
+.round {
+    border-radius: 20px;
+    height: 40px;
+}
+
+.image {position: relative;}
+.overlay-text {
+    position: absolute;
+    bottom: 10px;
+    left:19px;
+    font-size:30px;
+    font-weight: bold;
+    color: white;
+}
+
+.grey-text {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.black-bg-text {
+    color: lightgray;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.black-sm-text {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.icon-img{
+    float:right;
+    width: 80px;
+    height:80px;
+    padding-top: 20px;
+    padding-left: 3px;
+    border-radius: 15px;
+}
+
+.avatar {
+    width:40px;
+    height: 40px;
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.backblack{
+    background-color: black;
+}
+
+.backgrey{
+    background-color: grey;
+}
+.grey{
+    color: lightgray;
+}
+
+li.list-group-item {
+    background: black;
+    color: white;
+}
+li.list-group-item2 {
+    background: #171a1e;
+    padding: 10px;
+}
+
+.nav-tabs > li > a{
+    background-color: black;
+    color:lightgray;
+}
+
+a.active.nav-link{
+    background-color: black !important;
+    color:white !important;
+    border:0px !important;
+    font-weight: bold;
+}
+
+.card {
+    background-color: black !important;
+}
+.card-img-top{
+    width:100%;
+    object-fit: cover;
+}
+
+.btn-mine{
+    background-color: lightgray !important;
+    color: black !important;
+    font-weight: bold;
+}
+
+.last{
+    color: #2296e6;
+}
+
+.tweet{
+    width=100%;
+    background-color:#2296e6;
+}
+
+.dark{
+    border: solid #171a1e;
+}
