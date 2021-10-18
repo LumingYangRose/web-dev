@@ -13,7 +13,7 @@ const PostSummaryItem = (post) => {
                 </div>
             </div>
             <div class="col-2">
-                <img class="img-responsive rounded fr img-fluid" src=${post.image}/>
+                <img class="rounded fr img-fluid" src=${post.image}/>
             </div>
         </div>
     `);

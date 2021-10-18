@@ -1,12 +1,12 @@
 import icons from "./icons.js";
 import NavigationItem from "./navigationItem.js";
 
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
     return(`
             <ul class="list-group ">
                 ${
                     icons.map(icon => {
-                        return(NavigationItem(icon));
+                        return(NavigationItem(icon, active));
                     }).join('')
                     }
             </ul>

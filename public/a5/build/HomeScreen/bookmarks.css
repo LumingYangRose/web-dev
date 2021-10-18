@@ -10,6 +10,11 @@
     margin-left: 25%;
 }
 
+.wd-card {
+    border-color: darkgray; !important;
+    background-color: #030303;
+}
+
 .wd-heading {
     color: #d9d9d9;
     font-size: 20px;
@@ -23,13 +28,14 @@
 }
 
 .wd-post {
-    width: 550px;
-    height: 550px;
+    width: 500px;
+    height: 500px;
     /*background-color: #030303;*/
     /*border:0.1px solid #d9d9d9;*/
     position:relative;
     /*padding-left: 16px;*/
     /*margin-left: 25%;*/
+    border:1px solid #282c34;
 }
 
 .wd-avatar {
@@ -38,7 +44,7 @@
     float:left;
     position: absolute;
     /*top: 1px;*/
-    left:8px;
+    /*left:8px;*/
     width: 100px;
     height: 100px;
 }
@@ -71,7 +77,9 @@
 
 .wd-post-img {
     position: absolute;
-
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border:1px solid #282c34;
     width:400px;
     height: 220px;
     left:80px;
@@ -91,7 +99,7 @@
 
 .wd-icon-1 {
     position: absolute;
-    top:520px;
+    top:450px;
     left:100px;
     color:#d9d9d9;
     float: left;
@@ -100,7 +108,7 @@
 
 .wd-icon-num1 {
     position: absolute;
-    top:520px;
+    top:450px;
     left:125px;
     color:#d9d9d9;
     float: left;
@@ -108,7 +116,7 @@
 
 .wd-icon-2 {
     position: absolute;
-    top:520px;
+    top:450px;
     left:200px;
     color:#d9d9d9;
     float: left;
@@ -116,31 +124,31 @@
 
 .wd-icon-num2 {
     position: absolute;
-    top:520px;
-    left:235px;
+    top:450px;
+    left:225px;
     color:#d9d9d9;
     float: left;
 }
 
 .wd-icon-3 {
     position: absolute;
-    top:520px;
-    left:320px;
+    top:450px;
+    left:310px;
     color:#d9d9d9;
     float: left;
 }
 
 .wd-icon-num3 {
     position: absolute;
-    top:520px;
-    left:350px;
+    top:450px;
+    left:335px;
     color:#d9d9d9;
     float: left;
 }
 
 .wd-icon-4 {
     position: absolute;
-    top:520px;
+    top:450px;
     left:420px;
     color:#d9d9d9;
     float: left;
