@@ -1,0 +1,9 @@
+.rounded-top-both {
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+.rounded-down-both {
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
