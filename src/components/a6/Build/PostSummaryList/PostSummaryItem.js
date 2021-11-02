@@ -33,7 +33,7 @@ const PostSummaryItem = (
                     </div>
                 </div>
                 <div className="col-2">
-                    <img src={`${process.env.PUBLIC_URL}/images/${post.image}`} width="80" className="rounded-corners-all-around float-end"/>
+                    <img src={`${process.env.PUBLIC_URL}/images/${post.image}`} alt="" width="80" className="rounded-corners-all-around float-end"/>
                 </div>
             </div>
 
@@ -43,19 +43,3 @@ const PostSummaryItem = (
     );
 }
 export default PostSummaryItem;
-
-// <div className=" row pt-2 pb-2" style={{"border-color": "grey"}}>
-//     <div className="col-10">
-//         <div className="grey-text"> {post.topic} </div>
-//         <div style={{"color": "white"}}> {post.userName}
-//             <i className="fas fa-check-circle"></i>
-//             <span className="grey-text"> - {post.time}</span>
-//         </div>
-//         <div style={{"color": "white"}}>
-//             {post.title}
-//         </div>
-//     </div>
-//     <div className="col-2">
-//         <img className="rounded fr img-fluid" src={post.image}/>
-//     </div>
-// </div>

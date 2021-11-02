@@ -6,7 +6,7 @@ const PostItem = ({post}) => {
         <li className="list-group-item">
             <div className="row">
                 <div className="col-1">
-                    <img src={`${process.env.PUBLIC_URL}/images/${post.avatar}`} className="rounded-circle float-left" width="48"/>
+                    <img src={`${process.env.PUBLIC_URL}/images/${post.avatar}`} alt="" className="rounded-circle float-left" width="48"/>
                 </div>
                 <div className="col-11">
                     <div className="fw-bold">{post.userName}
@@ -21,7 +21,7 @@ const PostItem = ({post}) => {
                     </div>
                     <div>{post.summary}</div>
                     <div className="card" >
-                        <img src={`${process.env.PUBLIC_URL}/images/${post.image}`} className="rounded-top  card-img-top border border-dark" />
+                        <img src={`${process.env.PUBLIC_URL}/images/${post.image}`} alt="" className="rounded-top  card-img-top border border-dark" />
                         <div className="card-body border border-dark rounded-bottom">
                             <p className="card-text ">{post.content}</p>
                         </div>
@@ -29,10 +29,10 @@ const PostItem = ({post}) => {
 
 
                     <div className="d-flex justify-content-around">
-                        <a href="#" className="float-left pe-2"><i className="far fa-comment"></i><span className="text-secondary">{post.commentNo}</span></a>
-                        <a href="#" className="float-left pe-2"><i className="fas fa-retweet"></i><span className="text-secondary">{post.retweetNo}</span></a>
-                        <a href="#" className="float-left pe-2"><i className="far fa-heart"></i><span className="text-secondary">{post.likeNo}</span></a>
-                        <a href="#" className="float-left pe-2"><i className="fas fa-external-link-alt"></i></a>
+                        <a href="/#" className="float-left pe-2"><i className="far fa-comment"></i><span className="text-secondary">{post.commentNo}</span></a>
+                        <a href="/#" className="float-left pe-2"><i className="fas fa-retweet"></i><span className="text-secondary">{post.retweetNo}</span></a>
+                        <a href="/#" className="float-left pe-2"><i className="far fa-heart"></i><span className="text-secondary">{post.likeNo}</span></a>
+                        <a href="/#" className="float-left pe-2"><i className="fas fa-external-link-alt"></i></a>
                     </div>
 
                 </div>
