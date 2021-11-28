@@ -6,7 +6,7 @@ import ConditionalOutput from "./ConditionalOutput";
 import TodoItem from "./Todo/todos/TodoItem";
 import TodoList from "./Todo/todos/TodoList";
 
-const Practice = () => {
+const Practice_a6 = () => {
     return(
         <>
             <h1>Practice</h1>
@@ -29,4 +29,4 @@ const Practice = () => {
 )
 };
 
-export default Practice;
+export default Practice_a6;

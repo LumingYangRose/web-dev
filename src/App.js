@@ -4,33 +4,36 @@ import './vendors/fontawesome/css/all.min.css';
 
 import React from "react";
 import {BrowserRouter as Router, Route} from "react-router-dom";
-import HelloWorld from "./components/a6/HelloWorld";
-import Practice from "./components/a6/Practice";
-import Build from "./components/a6/Build";
-import HomeScreen from './components/a6/Build/HomeScreen/HomeScreen';
-import ExploreScreen from "./components/a6/Build/ExploreScreen/ExploreScreen";
+import Build from "./components/a7/Build";
+import Practice from "./components/a7/Practice"
+import Challenge from "./components/a7/Challenge"
+import who from "./reducers/who";
+import tweets from "./reducers/tweets";
+import {combineReducers, createStore} from "redux";
+import {Provider} from "react-redux";
+import profile from "./reducers/profile";
+
+const reducer = combineReducers({tweets: tweets, who, profile})
+const store = createStore(reducer);
 
 function App() {
     return (
-        <Router>
-            <div className="container">
-                <Route path="/a6/hello">
-                    <HelloWorld/>
-                </Route>
-                <Route path="/a6/practice">
-                    <Practice/>
-                </Route>
-                <Route path="/a6/build">
-                    <Build/>
-                </Route>
-                <Route path="/a6/twitter/home">
-                    <HomeScreen/>
-                </Route>
-                <Route path="/a6/twitter/explore">
-                    <ExploreScreen/>
-                </Route>
-            </div>
-        </Router>
+        <Provider store={store}>
+            <Router>
+                <div className="container">
+                    <Route path={["/a7", "/a7/practice"]} exact={true}>
+                        <Practice/>
+                    </Route>
+                    <Route path="/a7/twitter">
+                        <Build/>
+                    </Route>
+                    <Route path={["/a7/twitter/profile", "/a7/twitter/EditProfile"]}>
+                        <Challenge/>
+                    </Route>
+                </div>
+            </Router>
+        </Provider>
+
     );
 }
 
