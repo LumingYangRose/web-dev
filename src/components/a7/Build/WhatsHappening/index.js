@@ -28,7 +28,7 @@ const WhatsHappening = () => {
                 <tr >
                     <td className="align-text-top " >
                         <img className="rounded-circle wd-avatar-image ms-3"
-                             src="/images/Elon.jpeg"/>
+                             src="/images/Elon.jpeg" alt=""/>
                     </td>
                     <td  className="ps-1" style={{width:'100%'}}>
                         <textarea className="bg-transparent border-bottom border-dark form-control mb-2" style={{color: "white"}}
