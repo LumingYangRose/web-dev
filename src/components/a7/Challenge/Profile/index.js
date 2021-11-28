@@ -13,11 +13,13 @@ const Profile = () => {
 
     return(
         <ul className="list-group">
-            {
-                profiles.map(profile =>
-                    <ProfileItem profile={profile}/>
-                )
-            }
+                    <ProfileItem profile={profiles}/>
+
+            {/*{*/}
+            {/*    profiles.map(profile =>*/}
+            {/*        <ProfileItem profile={profile}/>*/}
+            {/*    )*/}
+            {/*}*/}
         </ul>
     )
 };
