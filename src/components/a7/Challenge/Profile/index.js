@@ -1,9 +1,9 @@
 import React from "react";
 import "./profile.css";
-import {useDispatch} from "react-redux";
+// import {useDispatch} from "react-redux";
 // import profileInit from "../../../../reducers/profile";
 import {useSelector} from "react-redux";
-import TweetListItem from "../../Build/TweetList/TweetListItem";
+// import TweetListItem from "../../Build/TweetList/TweetListItem";
 import ProfileItem from "./ProfileItem";
 const selectProfiles = (state) => state.profile;
 

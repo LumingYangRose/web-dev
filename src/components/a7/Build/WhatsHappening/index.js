@@ -3,7 +3,7 @@ import "./tweet.css";
 import {useDispatch, useSelector} from "react-redux";
 
 const WhatsHappening = () => {
-    const tweets = useSelector(state => state.tweets);
+    // const tweets = useSelector(state => state.tweets);
     let [whatsHappening, setWhatsHappening] = useState('');
     const dispatch = useDispatch();
     const tweetClickHandler = () => {

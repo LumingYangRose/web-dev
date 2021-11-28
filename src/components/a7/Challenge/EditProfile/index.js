@@ -22,10 +22,10 @@ const EditProfile = (
     let [editProfile, setEditProfile] = useState('');
     const dispatch = useDispatch();
     const saveClickHandler = () => {
-        const action = {
-            type:'update-profile',
-            editProfile
-        }
+        // const action = {
+        //     type:'update-profile',
+        //     editProfile
+        // }
         dispatch({type: 'update-profile', profile});
         // dispatch(action);
         window.open("/a7/twitter/profile");
