@@ -89,8 +89,8 @@ const EditProfile = (
                 </tr>
 
                 <tr className="holder">
-                    <img src="/images/twitter_bg.jpeg"   style={{width:'100%'}}/>
-                    <img src="/images/cat_avatar.jpeg" width="120px" height="120px" className="rounded-circle add-on" />
+                    <img src="/images/twitter_bg.jpeg"   style={{width:'100%'}} alt=""/>
+                    <img src="/images/cat_avatar.jpeg" width="120px" height="120px" className="rounded-circle add-on" alt=""/>
                 </tr>
 <br/><br/>
                 <tr className="ms-3 rounded-corners-all-around border wd-border-radius-20px border-light">
