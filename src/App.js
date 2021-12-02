@@ -4,9 +4,9 @@ import './vendors/fontawesome/css/all.min.css';
 
 import React from "react";
 import {BrowserRouter as Router, Route} from "react-router-dom";
-import Build from "./components/a7/Build";
-import Practice from "./components/a7/Practice"
-import Challenge from "./components/a7/Challenge"
+import Build from "./components/a8/Build";
+import Practice from "./components/a8/Practice"
+import Challenge from "./components/a8/Challenge"
 import who from "./reducers/who";
 import tweets from "./reducers/tweets";
 import {combineReducers, createStore} from "redux";
@@ -21,13 +21,13 @@ function App() {
         <Provider store={store}>
             <Router>
                 <div className="container">
-                    <Route path={["/a7", "/a7/practice"]} exact={true}>
+                    <Route path={["/a8", "/a8/practice"]} exact={true}>
                         <Practice/>
                     </Route>
-                    <Route path="/a7/twitter">
+                    <Route path="/a8/twitter">
                         <Build/>
                     </Route>
-                    <Route path={["/a7/twitter/profile", "/a7/twitter/EditProfile"]}>
+                    <Route path={["/a8/twitter/profile", "/a8/twitter/EditProfile"]}>
                         <Challenge/>
                     </Route>
                 </div>

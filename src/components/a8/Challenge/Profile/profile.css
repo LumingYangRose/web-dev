@@ -1,0 +1,29 @@
+.holder {
+    position: relative;
+    display: block;
+}
+
+.add-on {
+    left:5%;
+    /*bottom: 1%;*/
+    position: absolute;;
+    margin-top: 36%;
+    z-index: 10;
+    /*margin-left:10%;*/
+}
+
+.less-line-space {
+    line-height: 0.3;
+}
+
+.more-line-space {
+    line-height: 5;
+}
+
+.inline{
+    display: inline-block;
+}
+
+textarea::placeholder {
+    color: #fff;
+}
