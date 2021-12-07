@@ -11,7 +11,8 @@ export const fetchAllTweets = (dispatch) =>
             })
         );
 
-export const postNewTweet = (dispatch, newTweet) =>
+export const postNewTweet = (dispatch, newTweet) => {
+    // console.log(JSON.stringify(newTweet));
     fetch(TWEET_API, {
         method: 'POST',
         body: JSON.stringify(newTweet),
@@ -20,11 +21,42 @@ export const postNewTweet = (dispatch, newTweet) =>
         }
     })
         .then(response => response.json())
-        .then(tweet =>
+        .then(tweets =>
             dispatch({
+                // type: 'fetch-all-tweets',
+                // tweets
                 type: 'create-tweet',
-                tweet
+                tweet: tweets[0].tweet
+
             })
         );
+}
+
+export const deleteTweet = (dispatch, tweet) =>
+    fetch(`${TWEET_API}/${tweet._id}`, {
+        method: 'DELETE'
+    }).then(response => dispatch({
+        type: 'delete-tweet',
+        tweet
+    }));
+
+export const likeTweet = (dispatch, tweet) =>
+    fetch(`${TWEET_API}/${tweet._id}/like`, {
+        method: 'PUT'
+    })
+        .then(response =>
+            dispatch({
+                type: 'like-tweet',
+                tweet
+            }));
+
+
+
+
+
+
+
+
+
 
 

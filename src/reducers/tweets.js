@@ -3,9 +3,11 @@ import posts from './data/tweets.json';
 const tweets = (state = posts, action) => {
     switch (action.type) {
         case 'fetch-all-tweets':
-            return({
-                tweets: action.tweets
-            })
+            return action.tweets;
+            // return({
+            //     tweets: action.tweets
+            // })
+
             break;
 
         case 'create-tweet':
@@ -16,11 +18,13 @@ const tweets = (state = posts, action) => {
                 "verified": false,
                 "handle": "ReactJS",
                 "time": "2h",
-                ...action.whatsHappening,
+                // ...action.whatsHappening,
+                ...action.tweet,
                 "avatar-image": "../../../images/react-blue.png",
                 "logo-image": "../../../images/react-blue.png",
                 "stats": {
-                    "comments": 123,
+
+                    "comments": 321,
                     "retweets": 234,
                     "likes": 345
                 },

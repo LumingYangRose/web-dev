@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./tweet.css";
 import {useDispatch, useSelector} from "react-redux";
-import {postNewTweet} from "../../../../services/twitterService";
+import {postNewTweet, fetchAllTweets} from "../../../../services/twitterService";
 
 const WhatsHappening = () => {
     // const tweets = useSelector(state => state.tweets);
@@ -16,6 +16,8 @@ const WhatsHappening = () => {
         postNewTweet(dispatch, {
             tweet: whatsHappening
         });
+
+
     }
 
     const tweetChangeHandler = (event) => {
