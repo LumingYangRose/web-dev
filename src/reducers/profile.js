@@ -5,6 +5,9 @@ const profile = (state = profileJson, action) => {
     console.log(action.type);
     switch (action.type) {
 
+        case 'fetch-profile':
+            return action.profile;
+
         case 'update-profile':
             console.log("here");
             return state.map(profile => {

@@ -5,8 +5,6 @@ const ProfileItem = ({profile}) => {
             window.open('/a7/twitter/EditProfile');
         }
 
-
-
     return (
 
         <div className="pb-1 pt-1" width='100%'>
@@ -14,9 +12,7 @@ const ProfileItem = ({profile}) => {
                 <tr>
                     <td className="ps-1">
                         <i className="fas fa-arrow-left pe-3"></i>
-
-
-                        <span className="fw-bold ms-3">Luming</span>
+                        <span className="fw-bold ms-3">Luming Yang</span>
                         <div className="text-secondary text-sm-left ps-5" style={{"fontSize":"0.8em"}}>12 Tweets</div>
                     </td>
 
