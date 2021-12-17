@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dfbc5f9e-a3e4-499e-a26e-5d397c8bbaa1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/ExploreScreen/ExploreComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/ExploreScreen/ExploreScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/HomeScreen/HomeScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/HomeScreen/PostList/PostItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/HomeScreen/PostList/forPostList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/HomeScreen/PostList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/HomeScreen/PostList/posts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/NavigationSidebar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/PostSummaryList/PostSummaryItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/PostSummaryList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/PostSummaryList/posts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/TweetList/TweetListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/TweetList/TweetStats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/TweetList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/TweetList/tweet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/TweetList/tweets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/WhatsHappening/Elon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/WhatsHappening/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/WhatsHappening/tweet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/WhoToFollowList/WhoToFollowListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/WhoToFollowList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/WhoToFollowList/who.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/Elon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/grimes.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/inspiration4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/jquery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/js.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/nasa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/node.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/nypost.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/react-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/relativity.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/starship.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/tesla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/images/virgin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Build/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Challenge/EditProfile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Challenge/EditProfileScreen/EditProfileScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Challenge/Profile/ProfileItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Challenge/Profile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Challenge/Profile/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Challenge/ProfileScreen/ProfileScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Challenge/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/APIExamples/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/Classes/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/Classes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/ConditionalOutput/ConditionalOutputIfElse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/ConditionalOutput/ConditionalOutputInline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/ConditionalOutput/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/ReduxExamples/components/HelloReduxExampleComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/ReduxExamples/components/Todos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/ReduxExamples/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/ReduxExamples/reducers/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/ReduxExamples/reducers/todos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/Styles/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/Todo/todos/TodoItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/Todo/todos/TodoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/Todo/todos/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/Todo/todos/todos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/a8/Practice/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="21cakPbj4Ynlg5zuXR39VphYwSu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfbc5f9e-a3e4-499e-a26e-5d397c8bbaa1" name="Changes" comment="" />
+      <created>1638242971534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638242971534</updated>
+      <workItem from="1638242973930" duration="2373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
