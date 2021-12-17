@@ -13,7 +13,7 @@ const tweets = (state = posts, action) => {
 
         case 'create-tweet':
             const tweet = {
-                _id: (new Date()).getTime() + '',
+                // _id: (new Date()).getTime() + '',
                 "topic": "Web Development",
                 "userName": "ReactJS",
                 "verified": false,
@@ -37,6 +37,7 @@ const tweets = (state = posts, action) => {
             );
 
         case 'delete-tweet':
+            console.log("entered");
             return state.filter(tweet => tweet._id !== action.tweet._id);
 
         case 'like-tweet':

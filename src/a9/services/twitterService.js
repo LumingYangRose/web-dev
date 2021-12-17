@@ -1,54 +1,118 @@
 //client:
+import {createMovie} from "../Practice/Movies/service";
+import {useEffect, useState} from "react";
+
 const TWEET_API = 'http://localhost:4000/api/tweets';
 
-export const fetchAllTweets = (dispatch) =>
-    fetch(TWEET_API)
-        .then(response => response.json())
-        .then(tweets =>
-            dispatch({
-                type: 'fetch-all-tweets',
-                tweets
-            })
-        );
+// export const fetchAllTweets = (dispatch) =>
+//     fetch(TWEET_API)
+//         .then(response => response.json())
+//         .then(tweets =>
+//             dispatch({
+//                 type: 'fetch-all-tweets',
+//                 tweets
+//             })
+//         );
 
-export const postNewTweet = (dispatch, newTweet) => {
-    // console.log(JSON.stringify(newTweet));
+export const findAllTweets = () =>
+    fetch(TWEET_API)
+        .then(response => response.json());
+
+
+//
+// export const postNewTweet = (dispatch, newTweet) => {
+//     console.log(JSON.stringify(newTweet));
+//     fetch(TWEET_API, {
+//         method: 'POST',
+//         body: JSON.stringify(newTweet),
+//         headers: {
+//             'content-type': 'application/json'
+//         }
+//     })
+//         .then(response => response.json())
+//             .then(tweets => {
+//                 // console.log(newTweet);
+//                     dispatch({
+//                         // type: 'fetch-all-tweets',
+//                         // tweets
+//                         type: 'create-tweet',
+//                         tweet: tweets[0].tweet
+//
+//                     })
+//             }
+        // .then(newTweet => {
+        //     // console.log(newTweet);
+        //         dispatch({
+        //             // type: 'fetch-all-tweets',
+        //             // tweets
+        //             type: 'create-tweet',
+        //             tweet: newTweet.tweet
+        //
+        //         })
+        // }
+
+        // );
+// }
+
+
+//
+export const postNewTweet = (dispatch, newTweet) =>
     fetch(TWEET_API, {
         method: 'POST',
         body: JSON.stringify(newTweet),
         headers: {
             'content-type': 'application/json'
         }
-    })
-        .then(response => response.json())
-        .then(tweets =>
-            dispatch({
-                // type: 'fetch-all-tweets',
-                // tweets
-                type: 'create-tweet',
-                tweet: tweets[0].tweet
+    }).then(response => response.json())
+        .then(newTweet => {
+            // console.log(newTweet);
+                dispatch({
+                    // type: 'fetch-all-tweets',
+                    // tweets
+                    type: 'create-tweet',
+                    tweet: newTweet.tweet
 
-            })
-        );
-}
+                })});
 
-export const deleteTweet = (dispatch, tweet) =>
+    // console.log(JSON.stringify(newTweet));
+
+
+
+// console.log(postNewTweet().then((data) => {console.log(data)}));
+
+
+export const deleteTweet = (dispatch, tweet) => {
+
+    console.log(tweet);
     fetch(`${TWEET_API}/${tweet._id}`, {
         method: 'DELETE'
     }).then(response => dispatch({
         type: 'delete-tweet',
         tweet
     }));
+}
+
 
 export const likeTweet = (dispatch, tweet) =>
     fetch(`${TWEET_API}/${tweet._id}/like`, {
-        method: 'PUT'
+        method: 'PUT',
+        body: JSON.stringify(tweet),
+        headers: {
+            'content-type': 'application/json'
+        }
+
     })
         .then(response =>
             dispatch({
                 type: 'like-tweet',
                 tweet
             }));
+
+export default {
+    findAllTweets,
+    // fetchAllTweets,
+    postNewTweet, deleteTweet, likeTweet
+}
 
 
 

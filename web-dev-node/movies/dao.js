@@ -3,6 +3,7 @@ const model = require('./model');
 const findAllMovies = () =>
     model.find();
 
+// findAllMovies().then((data) => {console.log(data)});
 const deleteMovie = (id) =>
     model.removeOne({_id: id});
 

@@ -1,4 +1,4 @@
 const mongoose = require('mongoose');
-const schema = require('./tweet-schema');
-const model = mongoose.model('TweetModel', schema);
-module.exports = model;
+const tweetSchema = require('./tweet-schema');
+const tweetModel = mongoose.model('TweetModel', tweetSchema);
+module.exports = tweetModel;

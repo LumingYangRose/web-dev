@@ -32,13 +32,16 @@ export const postNewTweet = (dispatch, newTweet) => {
         );
 }
 
-export const deleteTweet = (dispatch, tweet) =>
+export const deleteTweet = (dispatch, tweet) => {
+    console.log(tweet);
     fetch(`${TWEET_API}/${tweet._id}`, {
         method: 'DELETE'
     }).then(response => dispatch({
         type: 'delete-tweet',
         tweet
     }));
+}
+
 
 export const likeTweet = (dispatch, tweet) =>
     fetch(`${TWEET_API}/${tweet._id}/like`, {

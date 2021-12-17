@@ -9,6 +9,8 @@ export const deleteMovie = (id) =>
         method: 'DELETE',
     });
 
+
+
 export const createMovie = (movie) =>
     fetch(URL, {
         method: 'POST',
@@ -17,6 +19,12 @@ export const createMovie = (movie) =>
             'content-type': 'application/json'
         }
     }).then(response => response.json());
+
+
+
+
+
+// console.log(createMovie().then((data) => {console.log(data)}));
 
 export const findMovieById = (id) =>
     fetch(`${URL}/${id}`)
